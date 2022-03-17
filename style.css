@@ -1,0 +1,25 @@
+body{
+  
+    background-color: pink;
+    text-align: center;
+    
+    
+  }
+  
+  h1{
+    color: purple;
+    margin: 80px;
+    font-style: italic
+  }
+  
+  strong{
+    color: red;
+  }
+  a{
+   color: blue;
+  }
+  
+  div{
+    border: 5px solid;
+    border-color: lavenderblush;
+  }
