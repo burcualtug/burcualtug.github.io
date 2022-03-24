@@ -1,25 +1,36 @@
-body{
-  
-    background-color: pink;
-    text-align: center;
-    
-    
+.container { 
+    display: flex;
+    }
+  .red {
+    background: orangered;
+    display: flex;
   }
-  
-  h1{
-    color: purple;
-    margin: 80px;
-    font-style: italic
+  .green {
+    background: yellowgreen;
   }
-  
-  strong{
-    color: red;
+  .blue {
+    background: steelblue;
   }
-  a{
-   color: blue;
+  .pink{
+    background: pink;
+    margin: auto;
   }
-  
-  div{
-    border: 5px solid;
-    border-color: lavenderblush;
+  .yellow{
+    background: yellow;
+    margin: auto;
+  }
+  .flex-items{
+      background-color: peru;
+      padding: 66px;
+  }
+  .flex-item{
+      background-color: pink;
+      width: 100%;
+      height: 300px;
+  }
+  .container div {
+    font-size: 5vw;
+    padding: .5em;
+    color: white;
+    flex: 1;
   }
